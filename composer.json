@@ -2,7 +2,7 @@
   "name": "eadesignro/module-eacore",
   "description": "The module with the menu and other features needed by other modules developed by EaDesign",
   "type": "magento2-module",
-  "version": "0.2.11.2",
+  "version": "0.2.11.3",
   "autoload": {
     "files": [
       "registration.php"
@@ -22,8 +22,8 @@
     }
   ],
   "require": {
-    "php": "~7.0 | ~7.1 | ~7.2",
-    "magento/module-backend": "^100.1.0 | ^100.2.0 | ^101.0.0"
+    "php": "~7.0 | ~7.1 | ~7.2 | ~7.3 | ~7.4",
+    "magento/module-backend": "^100.1.0 | ^100.2.0 | ^101.0.0 | ^102.0.0"
   },
   "require-dev": {
     "friendsofphp/php-cs-fixer": "~2.13.0",
